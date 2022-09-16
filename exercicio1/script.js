@@ -10,7 +10,7 @@ imprimirNome('Clara');
 //b. Declare uma função que imprima a tabuada do 6. Chame esta função.
 /*
 function tabuadaDoSeis() {
-    for (i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 10; i++) {
         console.log(`6 x ${i} = ${6*i}`);
     }
 }
@@ -32,7 +32,7 @@ imprimirNome('Clara');
 //Função B utilizando arrow function 
 /*
 const tabuadaDoSeis = () => {
-    for (i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 10; i++) {
         console.log(`6 x ${i} = ${6*i}`);
     }
 }
